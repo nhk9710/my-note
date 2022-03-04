@@ -1,0 +1,12 @@
+.main-container{ width: 100%; height: 937px; background-color: #f6d258  }
+.main-content{ width: 100%; max-width: 1440px; margin: 0 auto; text-align: center; color: white }
+
+.table-container{ width: 100%; max-width: 1440px; margin: 0 auto; }
+.table-title{ width: 100%; text-align: center; }
+
+
+.btn-wrapper{ margin-top: 30%; }
+
+.color{ color: red }
+h1{ margin: 0 }
+
