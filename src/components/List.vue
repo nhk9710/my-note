@@ -30,6 +30,14 @@
           </q-input>
         </template>
       </q-table>
+      <div class="full-width q-mt-sm">
+        <q-btn
+          color="orange-9"
+          @click="goCreate()"
+          class="float-right"
+        >작성
+        </q-btn>
+      </div>
     </div>
   </div>
 
@@ -67,6 +75,11 @@ export default defineComponent({
     goHome(){
       this.$router.push({
         path: '/'
+      })
+    },
+    goCreate(){
+      this.$router.push({
+        path: '/save/create'
       })
     }
   }
