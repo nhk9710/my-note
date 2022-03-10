@@ -1,0 +1,18 @@
+.country-container{ width: 100%; height: 937px; background: url("../img/Disney.jpg");filter: brightness(60%); position: relative; z-index:-1}
+.main-content{ width: 100%; max-width: 1440px; margin: 0 auto; text-align: center; position: absolute; z-index: 2; top: 20%; left: 13%}
+
+.main-container{ position: relative; overflow: hidden; }
+.main-container video{ position: absolute; width: 100%; z-index: -1; filter: brightness(60%);}
+
+.countryBtn{ transition: all .3s linear }
+.countryBtn:hover{ transform: scale(120%) }
+
+.table-container{ width: 100%; max-width: 1440px; margin: 2% auto 5%; }
+.table-title{ width: 100%; text-align: center; }
+
+
+.btn-wrapper{ margin-top: 30%; }
+
+.color{ color: red }
+h1{ margin: 0 }
+

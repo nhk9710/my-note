@@ -10,8 +10,10 @@
     "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.13.8",
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
+    "counterup2": "^2.0.2",
     "push-dir": "^0.4.1",
     "quasar": "^2.0.0",
     "vue": "^3.0.0",
